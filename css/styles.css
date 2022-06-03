@@ -142,7 +142,7 @@ body {
 }
 
 .navbar-toggler-icon--mod {
-  background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' %3F%3E%3Csvg width='512px' height='512px' viewBox='0 0 512 512' style='enable-background:new 0 0 512 512%3B' version='1.1' xml:space='preserve' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cstyle type='text/css'%3E.st0%7Bfill:%23b79a00 %3B%7D.st1%7Bfill:none%3Bstroke:%23b79a00 %3Bstroke-width:32%3Bstroke-linecap:round%3Bstroke-linejoin:round%3Bstroke-miterlimit:10%3B%7D%3C/style%3E%3Cg id='Layer_1'/%3E%3Cg id='Layer_2'%3E%3Cg%3E%3Cg%3E%3Ccircle class='st0' cx='418.47' cy='256' r='50.03'/%3E%3C/g%3E%3Cg%3E%3Ccircle class='st0' cx='256' cy='256' r='50.03'/%3E%3C/g%3E%3Cg%3E%3Ccircle class='st0' cx='93.53' cy='256' r='50.03'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E") !important;
+  background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' %3F%3E%3Csvg width='512px' height='512px' viewBox='0 0 512 512' style='enable-background:new 0 0 512 512%3B' version='1.1' xml:space='preserve' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cstyle type='text/css'%3E.st0%7Bfill:%23b79a00 %3B%7D.st1%7Bfill:none%3Bstroke:%23b79a00 %3Bstroke-width:32%3Bstroke-linecap:round%3Bstroke-linejoin:round%3Bstroke-miterlimit:10%3B%7D%3C/style%3E%3Cg id='Layer_1'/%3E%3Cg id='Layer_2'%3E%3Cg%3E%3Cg%3E%3Ccircle class='st0' cx='418.47' cy='256' r='50.03'/%3E%3C/g%3E%3Cg%3E%3Ccircle class='st0' cx='256' cy='256' r='50.03'/%3E%3C/g%3E%3Cg%3E%3Ccircle class='st0' cx='93.53' cy='256' r='50.03'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 
 .carousel-control-prev-icon--mod, .carousel-control-next-icon--mod {
@@ -150,8 +150,8 @@ body {
 }
 
 .navbar-toggler--mod {
-  color: #9a8762 !important;
-  border-color: #624e00 !important;
+  color: #9a8762;
+  border-color: #624e00;
 }
 
 #menu > li:hover {
@@ -159,9 +159,9 @@ body {
 }
 
 #menu li a {
-  font-family: 'Roboto',sans-serif;
-  font-weight: 300;
+  font-family: "Roboto", sans-serif;
   font-size: 1.1rem;
+  font-weight: 300;
 }
 
 .carousel-control-prev-icon--mod {
@@ -185,7 +185,7 @@ body {
 }
 
 .form-control--mod:focus {
-  border-color: #887145 !important;
+  border-color: #887145;
   box-shadow: none;
 }
 
