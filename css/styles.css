@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Akshar:wght@300&family=Josefin+Slab:wght@200;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Akshar:wght@300&family=Josefin+Slab:wght@400&display&family=Roboto:wght@100;300;500&display=swap");
 *::selection {
   color: #ffffff;
   background: #9a8762;
@@ -158,6 +158,12 @@ body {
   background: #9a8762;
 }
 
+#menu li a {
+  font-family: 'Roboto',sans-serif;
+  font-weight: 300;
+  font-size: 1.1rem;
+}
+
 .carousel-control-prev-icon--mod {
   transform: rotate(270deg);
 }
@@ -167,9 +173,9 @@ body {
 }
 
 .font-section {
-  font-family: "Josefin Slab", serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
-  font-weight: 400;
+  font-weight: 100;
 }
 
 @media all and (min-width: 768px) {
