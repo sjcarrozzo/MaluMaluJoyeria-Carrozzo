@@ -91,11 +91,11 @@ body {
 }
 
 .bg-gold-gradient {
-  background: linear-gradient(to bottom, #ffffff, #cec3b1, #887145, #332202);
+  background: linear-gradient(to bottom, #ffffff, #cec3b1, #ae9d7e);
 }
 
 #follow-us {
-  background: linear-gradient(90deg, #833ab4 20%, #fd1d1d 40%, #fcb045 80%);
+  background: linear-gradient(90deg, #833ab499 20%, #fd1d1da1 40%, #fcb045a6 80%);
   animation: gradient 8s ease infinite;
   background-size: 400% 400%;
 }
@@ -141,8 +141,13 @@ body {
   height: 25px;
 }
 
+.navbar-toggler--mod {
+  color: #9a8762 !important;
+  border-color: #9a8762 !important;
+}
+
 .navbar-toggler-icon--mod {
-  background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' %3F%3E%3Csvg width='512px' height='512px' viewBox='0 0 512 512' style='enable-background:new 0 0 512 512%3B' version='1.1' xml:space='preserve' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cstyle type='text/css'%3E.st0%7Bfill:%23b79a00 %3B%7D.st1%7Bfill:none%3Bstroke:%23b79a00 %3Bstroke-width:32%3Bstroke-linecap:round%3Bstroke-linejoin:round%3Bstroke-miterlimit:10%3B%7D%3C/style%3E%3Cg id='Layer_1'/%3E%3Cg id='Layer_2'%3E%3Cg%3E%3Cg%3E%3Ccircle class='st0' cx='418.47' cy='256' r='50.03'/%3E%3C/g%3E%3Cg%3E%3Ccircle class='st0' cx='256' cy='256' r='50.03'/%3E%3C/g%3E%3Cg%3E%3Ccircle class='st0' cx='93.53' cy='256' r='50.03'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' %3F%3E%3Csvg width='512px' height='512px' viewBox='0 0 512 512' style='enable-background:new 0 0 512 512%3B' version='1.1' xml:space='preserve' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cstyle type='text/css'%3E.st0%7Bfill:%23b79a00 %3B%7D.st1%7Bfill:none%3Bstroke:%23b79a00 %3Bstroke-width:32%3Bstroke-linecap:round%3Bstroke-linejoin:round%3Bstroke-miterlimit:10%3B%7D%3C/style%3E%3Cg id='Layer_1'/%3E%3Cg id='Layer_2'%3E%3Cg%3E%3Cg%3E%3Ccircle class='st0' cx='418.47' cy='256' r='50.03'/%3E%3C/g%3E%3Cg%3E%3Ccircle class='st0' cx='256' cy='256' r='50.03'/%3E%3C/g%3E%3Cg%3E%3Ccircle class='st0' cx='93.53' cy='256' r='50.03'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E") !important;
 }
 
 .carousel-control-prev-icon--mod, .carousel-control-next-icon--mod {
@@ -231,4 +236,27 @@ body {
   75% {
     transform: translateX(5px);
   }
+}
+
+.information-card {
+  background: transparent;
+}
+
+.information-card img:hover {
+  transition: all .3s ease-in-out;
+  opacity: .3;
+}
+
+.information-card a {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #9a8762;
+}
+
+.information-card p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 100;
+  text-justify: auto;
 }
