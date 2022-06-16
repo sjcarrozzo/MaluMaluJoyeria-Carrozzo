@@ -297,7 +297,7 @@ body {
 .information-card p {
   font-family: "Roboto", sans-serif;
   font-size: 1.1rem;
-  font-weight: 100;
+  font-weight: 300;
   text-align: justify;
   text-justify: inter-word;
 }

@@ -267,7 +267,7 @@ div.card--mod{
         color: $gold-color;
     }
     p{
-        @include set-font( ('Roboto', sans-serif), 1.1rem, 100);
+        @include set-font( ('Roboto', sans-serif), 1.1rem, 300);
         text-align: justify;
         text-justify: inter-word;
     }
